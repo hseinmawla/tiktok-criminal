@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة متابعين تيك توك</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📈 منصة زيادة متابعين تيك توك</h1>
+    <p>سجّل حسابك وابدأ بالحصول على متابعين حقيقيين!</p>
+    
+    <form id="registerForm">
+      <label>👤 اسم المستخدم:</label>
+      <input type="text" id="username" required placeholder="أدخل اسمك">
+      
+      <label>🔗 رابط حسابك على تيك توك:</label>
+      <input type="url" id="tiktok" required placeholder="https://www.tiktok.com/@username">
+
+      <button type="submit">🚀 تسجيل وبدء التبادل</button>
+    </form>
+
+    <div id="profile" style="display:none; margin-top:20px;">
+      <p>✅ تم تسجيلك بنجاح!</p>
+      <p>👤 الاسم: <span id="nameDisplay"></span></p>
+      <p>🔗 حسابك على تيك توك:</p>
+      <a id="tiktokLink" href="#" target="_blank" class="follow-btn">📲 اضغط هنا لزيارة الحساب</a>
+      <p style="margin-top: 10px;">🎁 نقاطك الحالية: <strong>10</strong></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
