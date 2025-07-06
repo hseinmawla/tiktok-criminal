@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #f9f9f9;
+  direction: rtl;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.follow-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #ff0050;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.follow-btn:hover {
+  background-color: #e60045;
+}
