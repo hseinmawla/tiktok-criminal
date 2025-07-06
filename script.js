@@ -1,8 +1,0 @@
-
-document.getElementById('loginForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const username = document.getElementById('username').value;
-  document.getElementById('loginForm').style.display = 'none';
-  document.getElementById('userData').style.display = 'block';
-  document.getElementById('user-name').textContent = username;
-});
